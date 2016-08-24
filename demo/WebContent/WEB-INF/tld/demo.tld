@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>demo</short-name>
+  <uri>http://java.daypilot.org/tld/demo</uri>
+
+  <tag>
+    <name>Tabs</name>
+    <tag-class>org.daypilot.demo.tag.TabsTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+
+  <tag>
+    <name>Menu</name>
+    <tag-class>org.daypilot.demo.tag.MenuTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+    <name>Download</name>
+    <tag-class>org.daypilot.demo.tag.DownloadTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+    <name>Root</name>
+    <tag-class>org.daypilot.demo.tag.RootTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+  
+  
+</taglib>

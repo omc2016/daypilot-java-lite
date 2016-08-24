@@ -1,0 +1,359 @@
+﻿/* navigator styles */
+
+.navigator_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: white;
+}
+
+.navigator_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_dayheader {
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.navigator_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_dayother {
+    color: gray;
+}
+.navigator_todaybox
+{
+	border: 1px solid red;
+}
+.navigator_select 
+{
+    background-color: #FFE794;
+}
+.navigator_title, .navigator_titleleft, .navigator_titleright {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+    color: #000000;
+}
+.navigator_busy {
+	font-weight: bold;
+}
+.navigator_weeknumber 
+{
+	color: #a0a0a0;
+}
+
+/* Navigator blue theme */
+
+.navigator_blue_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    xbackground-color: #F3F3F9;
+}
+
+.navigator_blue_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_blue_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_blue_dayheader {
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.navigator_blue_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_blue_dayother {
+    color: gray;
+}
+.navigator_blue_todaybox
+{
+	border: 1px solid red;
+}
+.navigator_blue_select 
+{
+    background-color: #AACCEE;
+}
+.navigator_blue_title, .navigator_blue_titleleft, .navigator_blue_titleright {
+    background-color: #C3D9FF;
+    color: black;
+    border-top: 1px solid #A0A0A0;
+}
+.navigator_blue_busy {
+	font-weight: bold;
+}
+
+/* Navigator silver theme */
+
+.navigator_silver_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: white;
+    /*
+	background-image: url(media/navigator_silver_clock_200x300g.gif);
+	background-repeat: no-repeat;
+*/
+    color: #000000;
+}
+
+.navigator_silver_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_silver_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_silver_weekend {
+    background-color: #f0f0f0;
+}
+.navigator_silver_dayheader {
+    color: black;
+}
+
+.navigator_silver_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_silver_dayother {
+    color: gray;
+}
+.navigator_silver_todaybox
+{
+	border: 1px solid red;
+}
+
+.navigator_silver_select 
+{
+    background-color: #FFE794;
+}
+.navigator_silver_title, .navigator_silver_titleleft, .navigator_silver_titleright {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+	background-image: url(media/navigator_silver_top21.gif);
+	background-repeat: repeat-x;
+}
+.navigator_silver_busy {
+	font-weight: bold;
+}
+.navigator_silver_weeknumber 
+{
+	color: #a0a0a0;
+}
+
+
+/* Navigator silver theme */
+
+.navigator_silver2_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: white;
+    color: #000000;
+	/*background-image: url(media/navigator_silver_clock_200x300g.gif);
+	background-repeat: no-repeat;*/
+}
+
+.navigator_silver2_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_silver2_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_silver2_dayheader {
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.navigator_silver2_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_silver2_dayother {
+    color: gray;
+}
+.navigator_silver2_todaybox
+{
+	border: 1px solid red;
+}
+
+.navigator_silver2_select 
+{
+    background-color: #FFE794;
+}
+.navigator_silver2_title, .navigator_silver2_titleleft, .navigator_silver2_titleright {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+	background-image: url(media/navigator_silver_top21.gif);
+	background-repeat: repeat-x;
+}
+.navigator_silver2_busy {
+	font-weight: bold;
+}
+
+
+/* scheduler silver theme */
+.scheduler_silver_timeheadergroup, .scheduler_silver_corner, .scheduler_silver_timeheadercol
+{
+	background-image: url(media/scheduler_silver_top20.gif);
+	background-repeat: repeat-x;
+}
+.scheduler_silver_rowheader 
+{
+	background-image: url(media/scheduler_silver_left45.gif);
+	background-repeat: repeat-y;
+}
+
+/* calendar silver theme */
+.calendar_silver_colheader
+{
+	background-image: url(media/calendar_silver_top21.gif);
+	background-repeat: repeat-x;
+	background-color: #EAEAEA;
+}
+.calendar_silver_corner 
+{
+	background-image: url(media/calendar_silver_corner20.gif);
+	background-repeat: repeat-x;
+	background-color: #EAEAEA;
+}
+.calendar_silver_rowheader 
+{
+	background-image: url(media/calendar_silver_left45.gif);
+	background-repeat: repeat-y;
+	background-color: #CFCFCF;
+}
+.calendar_silver_cornerright 
+{
+	background-image: url(media/calendar_silver_right17.gif);
+	background-repeat: repeat-y;
+	background-color: #CFCFCF;
+}
+.calendar_silver_alldayheader 
+{
+	background-color: #EAEAEA;
+}
+
+.calendar_silver_alldayevent 
+{
+	background-image: url(media/calendar_silver_top21.gif);
+	background-repeat: repeat-x;
+	background-color: #CFCFCF;
+}
+
+/* calendar bronze theme */
+.calendar_bronze_colheader, .calendar_bronze_corner, .calendar_bronze_cornerright
+{
+	background-image: url(media/calendar_bronze_top21.gif);
+	background-repeat: repeat-x;
+	background-color: #E0DBBE;
+}
+.calendar_bronze_rowheader 
+{
+	background-image: url(media/calendar_bronze_left30.gif);
+	background-repeat: repeat-y;
+	background-color: #E0DBBE;
+}
+.calendar_bronze_alldayheader 
+{
+	background-color: #E0DBBE;
+}
+
+/* Month silver theme */
+.month_silver_header 
+{
+	background-image: url(media/month_silver_top20.gif);
+	background-repeat: repeat-x;
+	background-color: #CFCFCF;
+}
+.month_silver_event 
+{
+	background-image: url(media/month_silver_event20.gif);
+	background-repeat: repeat-x;
+	background-color: #CFCFCF;
+}
+
+/*  Context menu NG */
+
+.menu_main
+{
+	font-family: Tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	border: 1px solid gray;
+	background-color: white;	
+	padding: 0px;
+	cursor: default;
+	background-image: url('media/elements/context_menu/bg3white.png');
+	background-repeat: repeat-y;
+}
+
+/* title */
+.menu_title
+{
+	background-color: #f2f2f2;
+	border-bottom: 1px solid gray;
+	padding: 4px 4px 4px 37px;
+}
+
+.menu_main a {
+	padding-left: 35px;
+	color: black;
+	text-decoration: none;
+	cursor: default;
+}
+
+.menu_main a span 
+{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	width: 150px; 
+	overflow:hidden;
+	padding-left: 2px;
+	padding-right: 20px;
+}
+
+.menu_main a:hover {
+	background-image: url('media/elements/context_menu/left.png');
+	background-repeat: no-repeat;	
+}
+
+.menu_main a:hover span {
+	background-image: url('media/elements/context_menu/right.png');
+	background-repeat: no-repeat;	
+	background-position: 100%;
+}
+
+.menu_main div div  /* separator */
+{
+	border-top: 1px solid #dddddd;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 28px;
+}

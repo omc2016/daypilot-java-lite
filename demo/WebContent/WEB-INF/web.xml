@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>daypilot-java-demo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>Index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>Default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <description></description>
+    <display-name>DpsServlet</display-name>
+    <servlet-name>DpsServlet</servlet-name>
+    <servlet-class>org.daypilot.demo.DpsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DpsServlet</servlet-name>
+    <url-pattern>/dps</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>DpcServlet</display-name>
+    <servlet-name>DpcServlet</servlet-name>
+    <servlet-class>org.daypilot.demo.DpcServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DpcServlet</servlet-name>
+    <url-pattern>/dpc</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>DpmServlet</display-name>
+    <servlet-name>DpmServlet</servlet-name>
+    <servlet-class>org.daypilot.demo.DpmServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DpmServlet</servlet-name>
+    <url-pattern>/dpm</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>NewServlet</display-name>
+    <servlet-name>NewServlet</servlet-name>
+    <servlet-class>org.daypilot.demo.NewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewServlet</servlet-name>
+    <url-pattern>/new</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>EditServlet</display-name>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>org.daypilot.demo.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+
+</web-app>

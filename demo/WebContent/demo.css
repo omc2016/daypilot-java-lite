@@ -1,0 +1,421 @@
+﻿p, body, td 
+{
+    font-family: Tahoma, Arial, Sans-Serif;
+    font-size: 10pt;
+    /* line-height: 1.4em;   Simulate default value change for testing purposes */
+}
+body 
+{
+	padding: 0px;
+	margin: 0px;
+	/*background-color: #e0e0e0;*/
+	background-color: #ffffff;
+}
+pre 
+{
+    font-size: 8pt;
+    background-color: White;
+}
+
+.content {
+	padding: 10px;
+	font-size: 10pt; 
+	xborder: 1px solid black;
+	background-color: #4c4c4c;
+	border: 10px solid #333333;
+	color: #b3b3b3;
+	margin-right: 2px;
+/*	background-color: #888888;
+	border: 10px solid #666666;
+*/
+}
+
+.content a
+{
+	color: #ffffff;
+}
+
+td .calendar 
+{
+	font-size: 10pt; 
+}
+
+.menutitle {
+	padding: 3px 3px 30px 3px;
+	font-size: 10pt;
+}
+
+a {
+	color:black;
+}
+
+a.MenuLink
+{
+/*	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+	font-weight: normal;
+	display: block;
+	text-align: left;
+	text-decoration: underline;
+	font-size: 10pt;
+	color: #333333;
+	vertical-align: middle;
+	padding: 3px 3px 3px 3px;
+}
+
+a.MenuSelected
+{
+/*	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+	/*font-weight: bold;*/
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: 10pt;
+	color: white;
+	/*border-top: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #333333;*/
+	vertical-align: middle;
+	padding: 3px 3px 3px 3px;
+/* 	background-color: #F0F8FF; */
+	background-color: #333333;
+}
+
+.Tab
+{
+    width:120px; 
+    /*background-color:#d3d3d3;*/
+    /*background-color: #f0f0f0 FFF4BC;*/
+    background-color: #e0e0e0;
+    xcolor: #000000;
+    text-align: center;
+    height: 40px;
+    border-top: 1px solid #333333; /* 666666  EAD098 */
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+.TabSelected 
+{
+    width:120px; 
+    background-color:#333333;
+    text-align: center;
+    height: 40px;
+}
+
+.Tab a 
+{
+	display: block;
+	xcolor: #000000;	
+	text-decoration: none;
+}
+
+.TabSelected a
+{
+	display: block;
+	color: white;	
+	text-decoration: none;
+}
+
+.MenuHeader 
+{
+	padding: 3px 3px 3px 3px;
+	font-weight: bold;
+}
+
+a.MenuLink:hover 
+{
+}
+
+/* navigator styles */
+
+.navigator_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: white;
+}
+
+.navigator_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_dayheader {
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.navigator_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_dayother {
+    color: gray;
+}
+.navigator_todaybox
+{
+	border: 1px solid red;
+}
+.navigator_select 
+{
+    background-color: #FFE794;
+}
+.navigator_title, .navigator_titleleft, .navigator_titleright {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+    color: #000000;
+}
+.navigator_busy {
+	font-weight: bold;
+}
+
+/* Navigator blue theme */
+
+.navigator_blue_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: #F3F3F9;
+}
+
+.navigator_blue_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_blue_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_blue_dayheader {
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.navigator_blue_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_blue_dayother {
+    color: gray;
+}
+.navigator_blue_todaybox
+{
+	border: 1px solid red;
+}
+.navigator_blue_select 
+{
+    background-color: #AACCEE;
+}
+.navigator_blue_title, .navigator_blue_titleleft, .navigator_blue_titleright {
+    background-color: #C3D9FF;
+    color: black;
+    border-top: 1px solid #A0A0A0;
+}
+.navigator_blue_busy {
+	font-weight: bold;
+}
+
+
+/* Navigator silver theme */
+
+.navigator_silver_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: white;
+    /*
+	background-image: url(Media/navigator_silver_clock_200x300g.gif);
+	background-repeat: no-repeat;
+*/
+    color: #000000;
+}
+
+.navigator_silver_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_silver_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_silver_weekend {
+    background-color: #f0f0f0;
+}
+.navigator_silver_dayheader {
+    color: black;
+}
+
+.navigator_silver_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_silver_dayother {
+    color: gray;
+}
+.navigator_silver_todaybox
+{
+	border: 1px solid red;
+}
+
+.navigator_silver_select 
+{
+    background-color: #FFE794;
+}
+.navigator_silver_title, .navigator_silver_titleleft, .navigator_silver_titleright {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+	background-image: url(Media/navigator_silver_top21.gif);
+	background-repeat: repeat-x;
+}
+.navigator_silver_busy {
+	font-weight: bold;
+}
+
+
+/* Navigator silver theme */
+
+.navigator_silver2_main 
+{
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-bottom: 1px solid #A0A0A0;
+    background-color: white;
+    color: #000000;
+	/*background-image: url(Media/navigator_silver_clock_200x300g.gif);
+	background-repeat: no-repeat;*/
+}
+
+.navigator_silver2_month {
+    font-family: Tahoma;
+    font-size: 8pt;
+    /*border: 1px solid black;*/
+}
+.navigator_silver2_day {
+    color: black;
+    /*background-color: white;*/
+}
+.navigator_silver2_dayheader {
+    color: black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.navigator_silver2_line 
+{
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.navigator_silver2_dayother {
+    color: gray;
+}
+.navigator_silver2_todaybox
+{
+	border: 1px solid red;
+}
+
+.navigator_silver2_select 
+{
+    background-color: #FFE794;
+}
+.navigator_silver2_title, .navigator_silver2_titleleft, .navigator_silver2_titleright {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+	background-image: url(Media/navigator_silver_top21.gif);
+	background-repeat: repeat-x;
+}
+.navigator_silver2_busy {
+	font-weight: bold;
+}
+
+
+/* scheduler silver theme */
+.scheduler_silver_timeheadergroup, .scheduler_silver_corner, .scheduler_silver_timeheadercol
+{
+	background-image: url(Media/scheduler_silver_top20.gif);
+	background-repeat: repeat-x;
+}
+.scheduler_silver_rowheader 
+{
+	background-image: url(Media/scheduler_silver_left45.gif);
+	background-repeat: repeat-y;
+}
+
+/* calendar silver theme */
+.calendar_silver_colheader
+{
+	background-image: url(Media/calendar_silver_top21.gif);
+	background-repeat: repeat-x;
+	background-color: #EAEAEA;
+}
+.calendar_silver_corner 
+{
+	background-image: url(Media/calendar_silver_corner20.gif);
+	background-repeat: repeat-x;
+	background-color: #EAEAEA;
+}
+.calendar_silver_rowheader 
+{
+	background-image: url(Media/calendar_silver_left45.gif);
+	background-repeat: repeat-y;
+	background-color: #CFCFCF;
+}
+.calendar_silver_cornerright 
+{
+	background-image: url(Media/calendar_silver_right17.gif);
+	background-repeat: repeat-y;
+	background-color: #CFCFCF;
+}
+.calendar_silver_alldayheader 
+{
+	background-color: #EAEAEA;
+}
+
+.calendar_silver_alldayevent 
+{
+	background-image: url(Media/calendar_silver_top21.gif);
+	background-repeat: repeat-x;
+	background-color: #CFCFCF;
+}
+
+/* calendar bronze theme */
+.calendar_bronze_colheader, .calendar_bronze_corner, .calendar_bronze_cornerright
+{
+	background-image: url(Media/calendar_bronze_top21.gif);
+	background-repeat: repeat-x;
+	background-color: #E0DBBE;
+}
+.calendar_bronze_rowheader 
+{
+	background-image: url(Media/calendar_bronze_left30.gif);
+	background-repeat: repeat-y;
+	background-color: #E0DBBE;
+}
+.calendar_bronze_alldayheader 
+{
+	background-color: #E0DBBE;
+}
+
+/* Month silver theme */
+.month_silver_header 
+{
+	background-image: url(Media/month_silver_top20.gif);
+	background-repeat: repeat-x;
+	background-color: #CFCFCF;
+}
+.month_silver_event 
+{
+	background-image: url(Media/month_silver_event20.gif);
+	background-repeat: repeat-x;
+	background-color: #CFCFCF;
+}
+
